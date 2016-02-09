@@ -1,2 +1,2 @@
 # ZfBitcoinTrader
-Bitcoin trader for zaif.jp
+Android Bitcoin trader for zaif.jp

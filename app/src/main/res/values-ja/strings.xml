@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">Zf BTC Trader</string>
+    <string name="versionnum">バージョン 1.0</string>
+    <string name="title_activity_about">アプリについて</string>
+    <string name="action_settings">設定</string>
+    <string name="label_settings">設定</string>
+    <string name="label_withdraw" tools:ignore="UnusedResources">払戻</string>
+    <string name="label_deposit" tools:ignore="UnusedResources">預入</string>
+    <string name="license">このアプリケーションは GNU Public License バージョン 3 の下にライセンスされる、オープンソースソフトウェアです。\n</string>
+    <string name="donation"></string>
+    <string name="mybtcaddress"></string>
+    <string name="myltcaddress"></string>
+    <string name="thankyou">Zf Bitcoin Trader のご利用ありがとうございます\n</string>
+    <string name="preference_file_key">myprefs</string>
+    <string name="amount">数量</string>
+    <string name="price">価格</string>
+    <string name="basebal">basebal</string>
+    <string name="quotebal">quotebal</string>
+    <string name="sell">売り</string>
+    <string name="buy">買い</string>
+    <string name="prefapikey">prefApiKey</string>
+    <string name="prefapisecret">prefApiSecret</string>
+    <string name="prefbtcaddress">prefbtcaddress</string>
+    <string name="splash_reminder">Zf Bitcoin Trader のご利用ありがとうございます!\n\n
+    セキュリティ上の注意:</string>
+    <string name="splash_helptext">1) このアプリで使用するキーは Withdrawals (払戻)を無効にしてください。\n2) 証明書を安全に保存するために PIN/パスワードが必要です</string>
+    <string name="QR">QR</string>
+    <string name="createdby">Created by Naofumi\nSpecial thanks Gopherdoc\n</string>
+    <string name="signup">ｻｲﾝｱｯﾌﾟ</string>
+    <string name="loadingtrader">トレーダーのロード中</string>
+    <string name="cancel">ｷｬﾝｾﾙ</string>
+    <string name="balance">残高</string>
+    <string name="deposit">預金</string>
+    <string name="buysell">買/売</string>
+    <string name="date">日付</string>
+    <string name="quoteamount">見積数量</string>
+    <string name="position">ポジション</string>
+    <string name="about">アプリについて</string>
+    <string name="QRcodeimg">QRCodeImage</string>
+    <string name="logo">ロゴ</string>
+    <string name="coinimg">コイン画像</string>
+    <string-array name="nav_drawer_items">
+        <item>取引</item>
+        <item>預金</item>
+        <item>取引履歴</item>
+        <item>設定</item>
+        <item>アプリについて</item>
+    </string-array>
+
+    <string name="apikey">API ｷｰ</string>
+    <string name="apisecretkey">API ｼｰｸﾚｯﾄｷｰ</string>
+    <string name="hidden">非表示</string>
+    <string name="returntotrading">もう一度押すとトレードに戻ります</string>
+    <string name="presstoexit">ｷｰが正しくありません. ｷｰを入力するか、もう一度戻るﾎﾞﾀﾝを押すと終了します</string>
+    <string name="againtoexit">もう一度押すと終了します</string>
+    <string name="checkapikey">API ｷｰを確認してください</string>
+    <string name="updateapikey">API ｷｰの更新</string>
+    <string name="updateapisecret">API ｼｰｸﾚｯﾄの更新</string>
+    <string name="insertkey">ｷｰを入力してください</string>
+    <string name="updatingtradehistory">取引履歴の更新中</string>
+    <string name="retrievingaddress">アドレスの取得中...</string>
+    <string name="loading">ロード中</string>
+    <string name="invalidorder">注文が正しくありません</string>
+    <string name="openorders">未執行の注文</string>
+    <string name="noopenorders">未執行の注文はありません</string>
+    <string name="oneopenorder">1 未執行の注文</string>
+    <string name="openorder">未執行の注文</string>
+    <string name="cancelorder">注文をｷｬﾝｾﾙしますか?</string>
+    <string name="confirmtrade">取引の確認</string>
+    <string name="at"> 価格 </string>
+    <string name="forr"> 合計 </string>
+    <string name="checkbuyamount">買数量を確認してください</string>
+    <string name="checksellamount">売数量を確認してください</string>
+    <string name="dismiss">閉じる</string>
+    <string name="close">閉じる</string>
+    <string name="refresh_interval">ﾘﾌﾚｯｼｭ間隔 (秒)</string>
+    <string name="depth_range">注文板のﾚﾝｼﾞ (%)</string>
+    <string name="depositbtc">預金 BTC</string>
+    <string name="currentbalance">現在の残高</string>
+    <string name="marketdepth">マーケット板</string>
+
+</resources>
