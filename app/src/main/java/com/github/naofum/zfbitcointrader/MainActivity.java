@@ -163,7 +163,7 @@ public class MainActivity extends FragmentActivity implements
         //Trade
         navDrawerItems.add(new NavDrawerItem(navMenuTitles[0]));
         //Deposit
-        navDrawerItems.add(new NavDrawerItem(navMenuTitles[1]));
+//        navDrawerItems.add(new NavDrawerItem(navMenuTitles[1]));
         //Trade History
         navDrawerItems.add(new NavDrawerItem(navMenuTitles[2]));
         //Settings
@@ -208,18 +208,10 @@ public class MainActivity extends FragmentActivity implements
    	     });
 	    }
 
-        // Gets the ad view defined in layout/ad_fragment.xml with ad unit ID set in
-        // values/strings.xml.
         mAdView = (AdView) findViewById(R.id.ad_view);
-
-        // Create an ad request. Check your logcat output for the hashed device ID to
-        // get test ads on a physical device. e.g.
-        // "Use AdRequest.Builder.addTestDevice("ABCDEF012345") to get test ads on this device."
         AdRequest adRequest = new AdRequest.Builder()
                 .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
                 .build();
-
-        // Start loading the ad in the background.
         mAdView.loadAd(adRequest);
     }
 
@@ -311,16 +303,16 @@ public class MainActivity extends FragmentActivity implements
                     mDrawerLayout.closeDrawer(mDrawerList);
 
                     break;
+//                case 1:
+//                    //Deposit
+//                    mViewPager.setCurrentItem(1);
+//                    currPager = 1;
+//                    mDrawerList.setItemChecked(position, true);
+//                    mDrawerList.setSelection(position);
+//                    mDrawerLayout.closeDrawer(mDrawerList);
+//                    pageBal.updateCoinInfo(API.BTC);
+//                    break;
                 case 1:
-                    //Deposit
-                    mViewPager.setCurrentItem(1);
-                    currPager = 1;
-                    mDrawerList.setItemChecked(position, true);
-                    mDrawerList.setSelection(position);
-                    mDrawerLayout.closeDrawer(mDrawerList);
-                    pageBal.updateCoinInfo(API.BTC);
-                    break;
-                case 2:
                     //History
                     mViewPager.setCurrentItem(2);
                     currPager = 2;
@@ -332,12 +324,12 @@ public class MainActivity extends FragmentActivity implements
                     sendToast(getString(R.string.updatingtradehistory));
                     myHandler.post(myCustomHandlerThread.fetchCompletedTrades);
                     break;
-                case 3:
+                case 2:
                     //Settings
                     startActivity(new Intent(this, ActivitySettings.class));
                     finish();
                     break;
-                case 4:
+                case 3:
                     //About
                     startActivity(new Intent(this, ActivityAbout.class));
                     finish();

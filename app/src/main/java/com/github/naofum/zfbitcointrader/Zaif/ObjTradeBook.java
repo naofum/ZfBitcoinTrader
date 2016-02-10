@@ -34,7 +34,7 @@ public class ObjTradeBook implements Parcelable {
             priceCurrency = "JPY";
             quantityCurrency = "BTC";
             JSONArray b = jObj.getJSONArray("bids");
-            for (int i = 0; i < b.length(); i++) {
+            for (int i = b.length() - 1; i >= 0; i--) {
                 ObjTradeBookOrderRecord item = new ObjTradeBookOrderRecord("buy", priceCurrency, quantityCurrency, b.getJSONArray(i));
                 addBid(item);
             }

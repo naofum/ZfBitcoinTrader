@@ -13,6 +13,16 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:gravity="center"/>
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="70"
+            android:paddingTop="30dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:src="@drawable/logo"
+            android:contentDescription="@string/logo"/>
         <TextView android:id="@+id/about_license"
             android:text="@string/license"
             android:layout_width="fill_parent"
