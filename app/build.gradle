@@ -6,7 +6,7 @@ android {
     buildToolsVersion '19.1.0'
 
     defaultConfig {
-        applicationId "gopherdoc.buttercoin.trader"
+        applicationId "com.github.naofum.zfbitcointrader"
         minSdkVersion 11
         targetSdkVersion 19
         versionCode 1
