@@ -1,7 +1,7 @@
 # ZfBitcoinTrader
 Unofficial Android Bitcoin trader for [zaif.jp](http://zaif.jp/).
 
-If you want to help me, than donate to `1LPq4coDNvqz9PB3qSpfGn9HKZxrMdQrMp`
+If you want to help me, then donate to `1LPq4coDNvqz9PB3qSpfGn9HKZxrMdQrMp`
 
 ## Special Thanks
 This application is based on gopherdoc's [buttercoin-trader](https://github.com/gopherdoc/buttercoin-trader).
